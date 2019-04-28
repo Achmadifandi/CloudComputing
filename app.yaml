@@ -1,0 +1,11 @@
+runtime: php55
+api_version: 1
+
+handlers:
+
+- url: /joker.jpeg
+  static_files: joker.jpeg
+  upload: joker.jpeg
+
+- url: /
+  script: home.php
